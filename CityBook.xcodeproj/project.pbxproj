@@ -13,6 +13,8 @@
 		EBF8104425C56CD00061CBA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF8104225C56CD00061CBA6 /* Main.storyboard */; };
 		EBF8104625C56CD20061CBA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF8104525C56CD20061CBA6 /* Assets.xcassets */; };
 		EBF8104925C56CD20061CBA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF8104725C56CD20061CBA6 /* LaunchScreen.storyboard */; };
+		EBF8105625C56E580061CBA6 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF8105525C56E580061CBA6 /* DetailsViewController.swift */; };
+		EBF8105925C577200061CBA6 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF8105825C577200061CBA6 /* City.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EBF8104525C56CD20061CBA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBF8104825C56CD20061CBA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBF8104A25C56CD20061CBA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF8105525C56E580061CBA6 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		EBF8105825C577200061CBA6 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				EBF8104525C56CD20061CBA6 /* Assets.xcassets */,
 				EBF8104725C56CD20061CBA6 /* LaunchScreen.storyboard */,
 				EBF8104A25C56CD20061CBA6 /* Info.plist */,
+				EBF8105525C56E580061CBA6 /* DetailsViewController.swift */,
+				EBF8105825C577200061CBA6 /* City.swift */,
 			);
 			path = CityBook;
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBF8104125C56CD00061CBA6 /* ViewController.swift in Sources */,
+				EBF8105925C577200061CBA6 /* City.swift in Sources */,
 				EBF8103D25C56CD00061CBA6 /* AppDelegate.swift in Sources */,
 				EBF8103F25C56CD00061CBA6 /* SceneDelegate.swift in Sources */,
+				EBF8105625C56E580061CBA6 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
